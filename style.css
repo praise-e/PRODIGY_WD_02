@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: lightgrey;
+    color: teal;
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+.stopwatch {
+    padding: 10%;
+}
+#display {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: 50px;
+}
+span {
+    box-shadow: 0 0 5px plum;
+    padding: 1%;
+    
+}
+.btn {
+    background-color: inherit;
+    color: teal;
+    padding: 1%;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid teal;
+    font-size: 1.1em;
+    margin-right: 30px;
+    margin-top: 6%;
+    border-radius: 6%;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: thistle;
+    color: teal;
+
+}
+li {
+    list-style: none;
+    text-decoration: underline dashed;
+    margin: 1em auto;
+}
+.pause, .reset, .lap {
+    display: none;
+}
+#lapped {
+    margin-top: 8%;
+}
